@@ -19,7 +19,7 @@ To compile the program, use a standard C compiler such as `gcc`:
 gcc -o soundwave main.c -lm
 ```
 
-## Usage
+# Usage
 
 The program expects the input file to be passed via standard input (<) and writes the modified audio file to standard output (>).
 
