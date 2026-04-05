@@ -55,7 +55,7 @@ Example (Increase sample rate by 10%):
 ./soundwave rate 1.10 < original.wav > modified.wav
 ```
 
-# 4. Channel
+## 4. Channel
 
 Extracts either the left or right channel from a stereo WAV file and outputs a new mono WAV file.
 ```bash
