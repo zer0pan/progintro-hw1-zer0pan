@@ -28,15 +28,15 @@ General Syntax:
 ./soundwave [option] [arguments] < input.wav > output.wav
 ```
 
-Options
-# 1. Display Help
+# Options
+## 1. Display Help
 
 Displays the available commands and basic usage examples.
 ```bash
 ./soundwave --help
 ```
 
-# 2. Info
+## 2. Info
 
 Reads and validates the WAV file header, printing its structural metadata to the console. It does not output a new audio file.
 ```bash 
@@ -44,7 +44,7 @@ Reads and validates the WAV file header, printing its structural metadata to the
 ```
 Output includes: File size, format chunk size, WAVE type format, mono/stereo indicator, sample rate, bytes/sec, block alignment, bits/sample, and data chunk size.
 
-# 3. Rate
+## 3. Rate
 
 Modifies the sample rate of the audio file by a specified floating-point multiplier. Values greater than 1.0 speed up the audio, while values less than 1.0 slow it down.
 ```bash 
